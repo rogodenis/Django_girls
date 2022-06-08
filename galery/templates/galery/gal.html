@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея</title>
+</head>
+<body>
+<h1>Тут будет галерея</h1>
+{% for b in data %}
+<!--<a href="{{ b.book.url }}">{{ b.title }}</a>-->
+<img src="{{ b.image.url }}">
+{% endfor %}
+</body>
+</html>
